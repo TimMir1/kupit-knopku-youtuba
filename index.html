@@ -39,6 +39,13 @@
             margin: 0 0 20px 0;
             text-align: center;
         }
+        
+        .price-label {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 5px;
+    font-style: italic;
+}
         .container {
             display: flex;
             flex-wrap: wrap;
@@ -200,6 +207,7 @@
             </div>
             <div class="input-container">
                 <label class="gold-label">Золотая кнопка (350х403мм)</label>
+                <div class="price-label">Цена: 7000 руб</div>
                 <label>Поменять текст</label>
                 <input type="text" id="goldPresentedInput" class="gold-input" placeholder="Presented to" value="Presented to" oninput="updateText('gold')">
                 <label>Введите имя для золотой кнопки:</label>
@@ -220,6 +228,7 @@
             </div>
             <div class="input-container">
                 <label class="silver-label">Серебряная кнопка (250х305мм)</label>
+                <div class="price-label">Цена: 5000 руб</div>
                 <label>Поменять текст</label>
                 <input type="text" id="silverPresentedInput" class="silver-input" placeholder="Presented to" value="Presented to" oninput="updateText('silver')">
                 <label>Введите имя для серебряной кнопки:</label>
